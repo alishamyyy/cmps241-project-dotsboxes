@@ -1,0 +1,3 @@
+git add Makefile
+git commit -m "Add Makefile with strict compiler flags and GDB debug symbols"
+git push -u origin feature/ali-ui-input-loop
