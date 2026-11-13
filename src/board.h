@@ -9,7 +9,7 @@
 typedef struct {
     int h_lines[DOT_ROWS][BOX_COLS]; 
     int v_lines[BOX_ROWS][DOT_COLS]; 
-    char boxes[BOX_ROWS][BOX_COLS]; 
+    char boxes[BOX_ROWS][BOX_COLS]; // char holder to identify the 2 players
     int score_a;
     int score_b;
 } Board;
